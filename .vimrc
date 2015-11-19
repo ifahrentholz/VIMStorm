@@ -26,7 +26,7 @@ let s:configMapping = s:vimDir.'/config/mappings.vim'
 let s:configAbbrev  = s:vimDir.'/config/abbrevs.vim'
 let s:configAutocmd  = s:vimDir.'/config/autocmds.vim'
 
-let s:userConfig  = s:vimDir.'/local.vim'
+let s:userConfig  = s:vimDir.'/userConfig.vim'
 
 if !isdirectory(s:pluginDir)
 
