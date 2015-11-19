@@ -16,9 +16,6 @@ syntax on
 " use dark background setting
 set background=dark
 
-" define colorscheme
-colorscheme railscasts
-
 " use 256 colors
 set t_Co=256
 
