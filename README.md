@@ -67,5 +67,5 @@ __only tested on OSX & Ubuntu__
 
 ### Install VIMStorm:
   ```bash
-  git clone https://github.com/ifahrentholz/VIMStorm && ln -s ~/.vim/.vimrc ~/.vimrc && vim
+  git clone https://github.com/ifahrentholz/VIMStorm ~/.vim && ln -s ~/.vim/.vimrc ~/.vimrc && vim
   ```
