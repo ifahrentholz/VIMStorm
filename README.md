@@ -1,4 +1,4 @@
-![VIMStorm]
+VIMStorm
 ====================================
 
 VIMStorm is a VIM based distribution targeting JavaScript and Web development.
@@ -22,12 +22,8 @@ And contains the features you expect from a modern code editor:
  - all the awesomness from VIM
 
 
-## Install
-
-__Only tested on OSX__ (El Capitan)
-
-### Dependencies
-
+### Install dependencies 
+__only tested on OSX & Ubuntu__
 
  1. A modern version of VIM
 
@@ -60,8 +56,7 @@ __Only tested on OSX__ (El Capitan)
   __I highly suggest to use the [node version manager](https://github.com/creationix/nvm)!__
 
   ```bash
-  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
-  nvm install 5.0
+  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash && nvm install 5.0
   ```
 
  4. Some npm packages
@@ -72,5 +67,5 @@ __Only tested on OSX__ (El Capitan)
 
 ### Install VIMStorm:
   ```bash
-  git clone https://github.com/ifahrentholz/VIMStorm
+  git clone https://github.com/ifahrentholz/VIMStorm && ln -s ~/.vim/.vimrc ~/.vimrc && vim
   ```
