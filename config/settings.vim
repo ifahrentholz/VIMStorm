@@ -10,60 +10,135 @@
 " font & color settings
 " ##############################################################################
 
-syntax on                               " syntax highlighting
-set background=dark                     " use dark background setting
-set t_Co=256                            " use 256 colors
-set guifont=Monaco:h14                  " set font family
+" syntax highlighting
+syntax on
+
+" use dark background setting
+set background=dark
+
+" use 256 colors
+set t_Co=256
+
+" set font family
+set guifont=Monaco:h14
 
 
 " ##############################################################################
 " indentation settings
 " ##############################################################################
 
-set nowrap                              " nowrap long lines
-set autoindent                          " auto indentation
-set copyindent                          " auto-indenting for code paste
-set ts=2                                " set indentation to two (2) spaces
-set smarttab                            " insert tabs on the start of a line
-set expandtab                           " indentation without hard tabs
-set shiftwidth=2                        " indentation without hard tabs
-set softtabstop=2                       " indentation without hard tabs
-set shiftround                          " multiple shiftwidth when '<' and '>'
-set linespace=3                         " space between the lines
+" nowrap long lines
+set nowrap
+
+" auto indentation
+set autoindent
+
+" auto-indenting for code paste
+set copyindent
+
+" set indentation to two (2) spaces
+set ts=2
+
+" insert tabs on the start of a line
+set smarttab
+
+" indentation without hard tabs
+set expandtab
+
+" indentation without hard tabs
+set shiftwidth=2
+
+" indentation without hard tabs
+set softtabstop=2
+
+" multiple shiftwidth when '<' and '>'
+set shiftround
+
+" space between the lines
+set linespace=3
 
 
 " ##############################################################################
 " search settings
 " ##############################################################################
 
-set showmatch                           " show bracket matches
-set incsearch                           " show search results as I type
-set ignorecase                          " ignore case in search
-set hlsearch                            " highlight all search matches
-set smartcase                           " pay attention to case when caps used
+" show bracket matches
+set showmatch
+
+" show search results as I type
+set incsearch
+
+" ignore case in search
+set ignorecase
+
+" highlight all search matches
+set hlsearch
+
+" pay attention to case when caps used
+set smartcase
 
 
 " ##############################################################################
 " vi / editor settings
 " ##############################################################################
 
-set encoding=utf-8                      " use UTF-8 encoding
-set nocompatible                        " don't be compatible with old vim
-set number                              " show line numbers
-set hidden                              " work with unsafed buffers
-set cursorline                          " highlight current line
-set mouse=a                             " enable mouse support
-set ttimeoutlen=100                     " decrease timeout faster insert with O
-set vb                                  " enable visual bell
-" set vb t_vb=                            " prevent vi making beep
-set ruler                               " show row and column in footer
-set scrolloff=2                         " minimum lines above/below cursor
-set laststatus=2                        " always show status bar
-set clipboard=unnamedplus               " use the system clipboard
-set wildmenu                            " enable bash style tab completion
-set wildmode=list:longest,full          " completion in the command line via tab
-set virtualedit=all                     " cursor can move beyond defined text
-set wrapscan                            " set the search scan to wrap lines
-set splitbelow                          " open new split windows to the bottom
-set foldmethod=manual                   " folding manual
-set nospell                             " no spell check
+" use UTF-8 encoding
+set encoding=utf-8
+
+" don't be compatible with old vim
+set nocompatible
+
+" show line numbers
+set number
+
+" work with unsafed buffers
+set hidden
+
+" highlight current line
+set cursorline
+
+" enable mouse support
+set mouse=a
+
+" decrease timeout faster insert with O
+set ttimeoutlen=100
+
+" enable visual bell
+set vb
+
+" prevent vi making beep
+" set vb t_vb=
+"
+" show row and column in footer
+set ruler
+
+" minimum lines above/below cursor
+set scrolloff=2
+
+" always show status bar
+set laststatus=2
+
+" use the system clipboard
+set clipboard=unnamedplus
+
+" enable bash style tab completion
+set wildmenu
+
+" completion in the command line via tab
+set wildmode=list:longest,full
+
+" cursor can move beyond defined text
+set virtualedit=all
+
+" set the search scan to wrap lines
+set wrapscan
+
+" open new split windows to the bottom
+set splitbelow
+
+" folding manual
+set foldmethod=manual
+
+" no spell check
+set nospell
+

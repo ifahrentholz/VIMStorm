@@ -10,47 +10,75 @@
 " leader key
 " ##############################################################################
 
-let mapleader = ","                     " define the leader key
+let mapleader = ","
 
 
 " ##############################################################################
 " remap backtick for better mark jumping
 " ##############################################################################
 
-nnoremap ' `                            " remap backtick for easer mark jumps
-nnoremap ` '                            " remap backtick for easer mark jumps
+nnoremap ' `
+nnoremap ` '
 
 
 " ##############################################################################
 " keyboard shortcuts
 " ##############################################################################
 
-nmap <space> :                          " space to go in command mode
-nmap <leader>nt :NERDTreeToggle         " easy open nerdtree
-nmap t o<ESC>k                          " insert blank line above
-nmap T O<ESC>j                          " insert blank line below
-inoremap jj <Esc>                       " handier esc mapping on 'jj'
-nnoremap <silent> ss :split<CR>         " quick horizontal split
-nnoremap <silent> vv :vsplit<CR>        " quick vertical split
-nn <leader>sl <c-w><s-h>                " move split left
-nn <leader>sr <c-w><s-l>                " move split right
-nn <leader>sb <c-w><s-j>                " move split up
-nn <leader>st <c-w><s-k>                " move split down
+" space to go in command mode
+nmap <space> :
+
+" easy open nerdtree
+nmap <leader>nt :NERDTreeToggle
+
+" insert blank line above
+nmap t o<ESC>k
+
+" insert blank line below
+nmap T O<ESC>j
+
+" handier esc mapping on 'jj'
+inoremap jj <Esc>
+
+" quick horizontal split
+nnoremap <silent> ss :split<CR>
+
+" quick vertical split
+nnoremap <silent> vv :vsplit<CR>
+
+" move split left
+nn <leader>sl <c-w><s-h>
+
+" move split right
+nn <leader>sr <c-w><s-l>
+
+" move split up
+nn <leader>sb <c-w><s-j>
+
+" move split down
+nn <leader>st <c-w><s-k>
 
 
 " ##############################################################################
 " easy window navigation
 " ##############################################################################
 
-nmap <C-h> <C-w>h                       " left
-nmap <C-j> <C-w>j                       " up
-nmap <C-k> <C-w>k                       " down
-nmap <C-l> <C-w>l                       " right
+" left
+nmap <C-h> <C-w>h
+" up
+nmap <C-j> <C-w>j
+" down
+nmap <C-k> <C-w>k
+" right
+nmap <C-l> <C-w>l
 
 
 " ##############################################################################
 " change working directory
 " ##############################################################################
 
-cmap cwd lcd %:p:h                    " cwd to current file dir
-cmap gn echo bufname("%")             " TODO
+
+" cwd to current file dir
+cmap cwd lcd %:p:h
+" TODO
+cmap gn echo bufname("%")
