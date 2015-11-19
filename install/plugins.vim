@@ -69,7 +69,7 @@ Plug 'tpope/vim-surround'
 Plug 'https://github.com/mattn/emmet-vim/'
 Plug 'junegunn/vim-easy-align'
 Plug 'Townk/vim-autoclose'
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer' }
+" Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer' }
 
 
 call plug#end()
