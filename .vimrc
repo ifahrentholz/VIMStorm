@@ -1,8 +1,8 @@
 "
-" IfWebVim configuration entry point
+" VIMStorm configuration entry point
 "
 " author: Ingo Fahrentholz <ingof.work@gmail.com>
-" source: https://github.com/ifahrentholz/IfWebVim
+" source: https://github.com/ifahrentholz/VIMStorm
 " year  : 2015
 "
 
@@ -33,7 +33,7 @@ if !isdirectory(s:pluginDir)
     " Welcome message when plugins are not yet installed
 
     echom " "
-    echom "Welcome to IfWebVim"
+    echom "Welcome to VIMStorm"
     echom " > the vim IDE for web dev <"
     echom " "
     echom "Checking dependencies :"
