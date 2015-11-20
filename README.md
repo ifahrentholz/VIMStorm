@@ -1,4 +1,4 @@
-![VIMStorm](resources/logo-small.png "VIMStorm")
+<img src="resources/logo-large-x2.png" width="311" height="110" alt="VIMStorm IDE logo">
 ====================================
 
 VIMStorm IDE is a VIM based distribution targeting JavaScript and Web development.
