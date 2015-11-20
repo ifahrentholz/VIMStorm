@@ -56,7 +56,7 @@ __only tested on OSX & Ubuntu__
   __I highly suggest to use the [node version manager](https://github.com/creationix/nvm)!__
 
   ```bash
-  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash && nvm install 5.0
+  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash && nvm install 5.1.0
   ```
 
  4. Some npm packages
