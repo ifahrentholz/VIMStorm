@@ -53,7 +53,7 @@ if !isdirectory(s:pluginDir)
         echom "We are going to install the plugins : "
         echom " 1. take a coffee"
         echom " 2. reload vim"
-        echom " 3. Envoy WebVim"
+        echom " 3. Envoy VIMStorm"
         echom " "
         echom "Please note if you want to have the arrows keys and <esc>, disable the 'hardcoreMode' in the vimrc"
         echom " "
