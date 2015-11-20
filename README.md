@@ -69,3 +69,11 @@ __only tested on OSX & Ubuntu__
   ```bash
   git clone https://github.com/ifahrentholz/VIMStorm ~/.vim && ln -s ~/.vim/.vimrc ~/.vimrc && vim
   ```
+
+
+----  
+
+
+### DONE
+
+<img src="resources/magicfingers.gif" width="400" height="224" alt="magic fingers gif">
