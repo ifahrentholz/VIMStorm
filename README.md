@@ -1,4 +1,3 @@
-(resources/WebVim.png "WebVim")ouVIMStorm IDE
 ![VIMStorm](resources/logo-small.png "VIMStorm")
 ====================================
 
