@@ -1,8 +1,7 @@
-VIMStorm
+VIMStorm IDE
 ====================================
 
-VIMStorm is a VIM based distribution targeting JavaScript and Web development.
-It's a setup to provide features in VIM your learn to love when working within an IDE like Webstorm.
+VIMStorm IDE is a VIM based distribution targeting JavaScript and Web development.
 
 It targets:
  - JavaScript development (ES5, ES6, node.js)
