@@ -1,5 +1,5 @@
 "
-" VIMStorm configuration : global abbreviations
+" VIMStorm IDE configuration : global abbreviations
 "
 " author: Ingo Fahrentholz <ingof.work@gmail.com>
 " source: https://github.com/ifahrentholz/VIMStorm

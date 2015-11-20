@@ -22,7 +22,7 @@ And contains the features you expect from a modern code editor:
  - all the awesomness from VIM
 
 
-### Install dependencies 
+### Install dependencies
 __only tested on OSX & Ubuntu__
 
  1. A modern version of VIM
@@ -65,7 +65,7 @@ __only tested on OSX & Ubuntu__
   npm install -g eslint csslint jshint jsonlint handlebars
   ```
 
-### Install VIMStorm:
+### Install VIMStorm IDE:
   ```bash
   git clone https://github.com/ifahrentholz/VIMStorm ~/.vim && ln -s ~/.vim/.vimrc ~/.vimrc && vim
   ```

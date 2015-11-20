@@ -1,5 +1,5 @@
 "
-" VIMStorm configuration : global settings
+" VIMStorm IDE configuration : global settings
 "
 " author: Ingo Fahrentholz <ingof.work@gmail.com>
 " source: https://github.com/ifahrentholz/VIMStorm
@@ -33,14 +33,8 @@ set nowrap
 " auto indentation
 set autoindent
 
-" auto-indenting for code paste
-set copyindent
-
 " set indentation to two (2) spaces
 set ts=2
-
-" insert tabs on the start of a line
-set smarttab
 
 " indentation without hard tabs
 set expandtab
@@ -50,9 +44,6 @@ set shiftwidth=2
 
 " indentation without hard tabs
 set softtabstop=2
-
-" multiple shiftwidth when '<' and '>'
-set shiftround
 
 " space between the lines
 set linespace=3
@@ -101,14 +92,14 @@ set cursorline
 set mouse=a
 
 " decrease timeout faster insert with O
-set ttimeoutlen=100
+set ttimeoutlen=0
 
 " enable visual bell
 set vb
 
 " prevent vi making beep
 " set vb t_vb=
-"
+
 " show row and column in footer
 set ruler
 
@@ -119,7 +110,7 @@ set scrolloff=2
 set laststatus=2
 
 " use the system clipboard
-set clipboard=unnamedplus
+set clipboard=unnamed
 
 " enable bash style tab completion
 set wildmenu

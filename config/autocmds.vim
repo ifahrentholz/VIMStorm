@@ -1,5 +1,5 @@
 "
-" VIMStorm configuration : autocommands
+" VIMStorm IDE configuration : autocommands
 "
 " author: Ingo Fahrentholz <ingof.work@gmail.com>
 " source: https://github.com/ifahrentholz/VIMStorm

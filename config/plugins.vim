@@ -1,5 +1,5 @@
 "
-" VIMStorm configuration : plugins configuration
+" VIMStorm IDE configuration : plugins configuration
 "
 " author: Ingo Fahrentholz <ingof.work@gmail.com>
 " source: https://github.com/ifahrentholz/VIMStorm
