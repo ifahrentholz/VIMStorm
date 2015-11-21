@@ -1,0 +1,3 @@
+[submodule "install/fonts"]
+	path = install/fonts
+	url = https://github.com/powerline/fonts

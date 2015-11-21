@@ -37,7 +37,7 @@ Plug 'airblade/vim-gitgutter'
 
 Plug 'https://github.com/kien/ctrlp.vim.git'
 Plug 'terryma/vim-multiple-cursors'
-Plug 'bling/vim-airline', { 'do' : $HOME.'/.vim/fonts/install' }
+Plug 'bling/vim-airline', { 'do' : $HOME.'/.vim/install/fonts/install' }
 
 
 " ##############################################################################
