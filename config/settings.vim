@@ -20,7 +20,7 @@ set background=dark
 set t_Co=256
 
 " set font family
-set guifont=Monaco:h14
+set guifont=Inconsolato-g\ for\ Powerline.ttf:h16
 
 
 " ##############################################################################
