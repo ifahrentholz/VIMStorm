@@ -30,55 +30,53 @@ let s:userConfig  = s:vimDir.'/userConfig.vim'
 
 if !isdirectory(s:pluginDir)
 
-    " Welcome message when plugins are not yet installed
+  " Welcome message when plugins are not yet installed
+
+  echom " "
+  echom "Welcome to VIMStorm"
+  echom " > the vim IDE for web dev <"
+  echom " "
+  echom "Checking dependencies :"
+  if !executable('node') || !executable('npm')
+    echom " [ERR] node.js and npm are required, please install them before continuing."
+    echom " "
+  else
+
+    echom "  - nodejs   : ok"
+    echom "  - npm      : ok"
+    echom "  - eslint   : " . (executable('eslint')   ? "ok" : "no (optional)")
+    echom "  - jsonlint : " . (executable('jsonlint') ? "ok" : "no (optional)")
+    echom "  - csslint  : " . (executable('csslint')  ? "ok" : "no (optional)")
+    echom " done."
 
     echom " "
-    echom "Welcome to VIMStorm"
-    echom " > the vim IDE for web dev <"
+    echom "We are going to install the plugins : "
+    echom " 1. take a coffee"
+    echom " 2. reload vim"
+    echom " 3. Envoy VIMStorm"
     echom " "
-    echom "Checking dependencies :"
-    if !executable('node') || !executable('npm')
-        echom " [ERR] node.js and npm are required, please install them before continuing."
-    	echom " "
-    else
 
-        echom "  - nodejs   : ok"
-        echom "  - npm      : ok"
-        echom "  - eslint   : " . (executable('eslint')   ? "ok" : "no (optional)")
-        echom "  - jsonlint : " . (executable('jsonlint') ? "ok" : "no (optional)")
-        echom "  - csslint  : " . (executable('csslint')  ? "ok" : "no (optional)")
-        echom " done."
+    exec ":source ".s:pluginDef
 
-        echom " "
-        echom "We are going to install the plugins : "
-        echom " 1. take a coffee"
-        echom " 2. reload vim"
-        echom " 3. Envoy VIMStorm"
-        echom " "
-        echom "Please note if you want to have the arrows keys and <esc>, disable the 'hardcoreMode' in the vimrc"
-        echom " "
-
-        exec ":source ".s:pluginDef
-
-	"Install plugins on first run
-	autocmd VimEnter * PlugInstall
-    endif
+    "Install plugins on first run
+    autocmd VimEnter * PlugInstall
+  endif
 else
 
-    " Loads the global config, mapping and settings
-    exec ":source ".s:configSetting
-    exec ":source ".s:configMapping
-    exec ":source ".s:configAbbrev
-    exec ":source ".s:configAutocmd
+  " Loads the global config, mapping and settings
+  exec ":source ".s:configSetting
+  exec ":source ".s:configMapping
+  exec ":source ".s:configAbbrev
+  exec ":source ".s:configAutocmd
 
-    " Loads plugins def and config
-    exec ":source ".s:pluginDef
-    exec ":source ".s:pluginConf
+  " Loads plugins def and config
+  exec ":source ".s:pluginDef
+  exec ":source ".s:pluginConf
 
 
-    " user configuration
-    if filereadable(s:userConfig)
-        exec ":source ".s:userConfig
-    endif
+  " user configuration
+  if filereadable(s:userConfig)
+    exec ":source ".s:userConfig
+  endif
 
 endif
