@@ -37,6 +37,7 @@ Plug 'airblade/vim-gitgutter'
 
 Plug 'https://github.com/kien/ctrlp.vim.git'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'bling/vim-airline', { 'do' : $HOME.'/.vim/fonts/install' }
 
 
 " ##############################################################################
@@ -69,7 +70,7 @@ Plug 'tpope/vim-surround'
 Plug 'https://github.com/mattn/emmet-vim/'
 Plug 'junegunn/vim-easy-align'
 Plug 'Townk/vim-autoclose'
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer' }
+" Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer' }
 
 
 call plug#end()
