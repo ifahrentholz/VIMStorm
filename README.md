@@ -75,15 +75,18 @@ __only tested on OSX & Ubuntu__
   > All installed 'powerline' fonts can be found in the folder **~/.vim/install/fonts** but keep
   > in mind that these fonts are already installed on your system by the install script
 
-  #### iTerm2 users
+
+**iterm2 users**
   1. Goto: iterm >  preferences > profiles > text
   2. Change the *Regular Font* & *Non-ASCII Font* to: **12pt Inconsolata-g for Powerline** (or any other font withe the suffix **for Powerline**)
   3. Restart iterm
   4. Start vim
 
-  #####Of course you can also use any other powerline font just keep in mind to change the font at the following locations
+**Of course you can also use any other powerline font just keep in mind to change the font at the following locations**
   1. iterm (as described above)
-  2. ~/.vim/config/settings.vim  *set guifont...*
+  2. ~/.vim/config/settings.vim => set guifont...
+
+**There's also a good [YouTube video](https://www.youtube.com/watch?v=zE3STsWTCcA) online.**
 
 ---
 
