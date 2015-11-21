@@ -19,3 +19,10 @@ autocmd BufRead,BufNewFile .jshintrc setfiletype json
 " ##############################################################################
 
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
+
+
+" ##############################################################################
+" set markdown support
+" ##############################################################################
+"
+au BufNewFile,BufRead *.markdown,*.mdown,*.mkd,*.mkdn,README.md  setf markdown
