@@ -87,10 +87,3 @@ __only tested on OSX & Ubuntu__
   2. ~/.vim/config/settings.vim => set guifont...
 
 **There's also a good [YouTube video](https://www.youtube.com/watch?v=zE3STsWTCcA) online.**
-
----
-
-
-### DONE
-
-<img src="resources/magicfingers.gif" width="400" height="224" alt="magic fingers gif">
