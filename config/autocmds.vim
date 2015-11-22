@@ -32,4 +32,11 @@ au BufNewFile,BufRead *.markdown,*.mdown,*.mkd,*.mkdn,README.md  setf markdown
 " remove trailing whitespace
 " ##############################################################################
 
-autocmd BufWritePre * :StripWhitespace
+function! TrimWhiteSpace()
+  %s/\s\+$//e
+endfunction
+
+autocmd FileWritePre    * :call TrimWhiteSpace()
+autocmd FileAppendPre   * :call TrimWhiteSpace()
+autocmd FilterWritePre  * :call TrimWhiteSpace()
+autocmd BufWritePre     * :call TrimWhiteSpace()
