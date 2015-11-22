@@ -59,7 +59,8 @@ Plug 'moll/vim-node'
 
 Plug 'scrooloose/syntastic'
 Plug 'editorconfig/editorconfig-vim'
-Plug 'bronson/vim-trailing-whitespace'
+" Plug 'bronson/vim-trailing-whitespace'
+Plug 'ntpeters/vim-better-whitespace'
 Plug 'marijnh/tern_for_vim', { 'do' : 'npm install' }
 
 

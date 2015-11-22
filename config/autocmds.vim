@@ -24,5 +24,12 @@ autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 " ##############################################################################
 " set markdown support
 " ##############################################################################
-"
+
 au BufNewFile,BufRead *.markdown,*.mdown,*.mkd,*.mkdn,README.md  setf markdown
+
+
+" ##############################################################################
+" remove trailing whitespace
+" ##############################################################################
+
+autocmd BufWritePre * :StripWhitespace
