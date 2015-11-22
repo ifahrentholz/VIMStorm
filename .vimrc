@@ -45,8 +45,12 @@ if !isdirectory(s:pluginDir)
     echom "  - nodejs   : ok"
     echom "  - npm      : ok"
     echom "  - eslint   : " . (executable('eslint')   ? "ok" : "no (optional)")
+    echom "  - yamllint  : " . (executable('js-yaml')  ? "ok" : "no (optional)")
     echom "  - jsonlint : " . (executable('jsonlint') ? "ok" : "no (optional)")
+    echom "  - scsslint  : " . (executable('scsslint')  ? "ok" : "no (optional)")
     echom "  - csslint  : " . (executable('csslint')  ? "ok" : "no (optional)")
+    echom "  - handlebars  : " . (executable('handlebars')  ? "ok" : "no (optional)")
+    echom "  - vimlint  : " . (executable('vimlint')  ? "ok" : "no (optional)")
     echom " done."
 
     echom " "
