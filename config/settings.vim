@@ -76,6 +76,10 @@ set smartcase
 " use UTF-8 encoding
 set encoding=utf-8
 
+" set backupdir to ~/vim-backups
+set backupdir=~/.vim/vim-backups
+set directory=~/.vim/vim-backups/swapfiles/
+
 " don't be compatible with old vim
 set nocompatible
 
