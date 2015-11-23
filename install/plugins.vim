@@ -57,6 +57,7 @@ Plug 'moll/vim-node'
 " code quality & syntax checkers
 " ##############################################################################
 
+Plug 'heavenshell/vim-jsdoc'
 Plug 'scrooloose/syntastic'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'marijnh/tern_for_vim', { 'do' : 'npm install' }
