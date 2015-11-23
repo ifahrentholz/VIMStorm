@@ -16,7 +16,7 @@ And contains the features you expect from a modern code editor:
  - git support
  - code format
  - support coding conventions (editorconfig)
- - jsdoc generation (todo)
+ - jsdoc generation
  - debugging (todo)
  - grunt/gulp support (todo)
  - all the awesomness from VIM
