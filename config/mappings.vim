@@ -25,6 +25,9 @@ nnoremap ` '
 " keyboard shortcuts
 " ##############################################################################
 
+" open last edited file
+nmap <leader>. :e#<CR>
+
 " space to go in command mode
 nmap <space> :
 
