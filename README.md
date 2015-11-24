@@ -50,8 +50,18 @@ __only tested on OSX & Ubuntu__
   apt-get install build-essentials cmake python-dev exuberant-ctags libclang3.4-dev
   ```
 
+ 3. The silver_searcher `for the Ag` plugin
+ MAC
+ ```bash
+ brew install the_silver_searcher
+ ```
+ 
+ Ubuntu
+ ```bash
+ apt-get install silversearcher-ag
+ ```
 
- 3. Node.js and npm
+ 4. Node.js and npm
 
   __I highly suggest to use the [node version manager](https://github.com/creationix/nvm)!__
 
@@ -59,7 +69,7 @@ __only tested on OSX & Ubuntu__
   curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash && nvm install 5.1.0
   ```
 
- 4. Some npm packages
+ 5. Some npm packages
 
   ```bash
   npm install -g eslint csslint jshint jsonlint handlebars
