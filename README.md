@@ -87,3 +87,6 @@ __only tested on OSX & Ubuntu__
   2. ~/.vim/config/settings.vim => set guifont...
 
 **There's also a good [YouTube video](https://www.youtube.com/watch?v=zE3STsWTCcA) online.**
+
+### TODO:
+- update docu and describe what mentioned in this post: https://msol.io/blog/tech/work-more-efficiently-on-your-mac-for-developers/
