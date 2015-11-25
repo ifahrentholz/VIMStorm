@@ -55,7 +55,7 @@ __only tested on OSX & Ubuntu__
  ```bash
  brew install the_silver_searcher
  ```
- 
+
  Ubuntu
  ```bash
  apt-get install silversearcher-ag
@@ -100,3 +100,4 @@ __only tested on OSX & Ubuntu__
 
 ### TODO:
 - update docu and describe what mentioned in this post: https://msol.io/blog/tech/work-more-efficiently-on-your-mac-for-developers/
+- add ctags + taglist / easytags
