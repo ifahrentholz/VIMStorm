@@ -36,6 +36,7 @@ Plug 'airblade/vim-gitgutter'
 " navigation
 " ##############################################################################
 
+Plug 'majutsushi/tagbar'
 Plug 'https://github.com/kien/ctrlp.vim.git'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'bling/vim-airline', { 'do' : $HOME.'/.vim/install/fontz/install.sh' }
