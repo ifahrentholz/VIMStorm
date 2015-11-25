@@ -47,6 +47,7 @@ Plug 'rking/ag.vim'
 " syntax libs
 " ##############################################################################
 
+Plug 'vim-scripts/MatchTag'
 Plug 'othree/html5.vim'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'cakebaker/scss-syntax.vim'
