@@ -36,7 +36,6 @@ Plug 'airblade/vim-gitgutter'
 " navigation
 " ##############################################################################
 
-Plug 'yssl/VIntSearch'
 Plug 'majutsushi/tagbar'
 Plug 'https://github.com/kien/ctrlp.vim.git'
 Plug 'terryma/vim-multiple-cursors'
