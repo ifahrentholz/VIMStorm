@@ -77,7 +77,7 @@ __only tested on OSX & Ubuntu__
 
 ### Install VIMStorm IDE:
   ```bash
-  git clone https://github.com/ifahrentholz/VIMStorm ~/.vim && ln -s ~/.vim/.vimrc ~/.vimrc && vim
+  git clone https://github.com/ifahrentholz/VIMStorm --recursive ~/.vim && ln -s ~/.vim/.vimrc ~/.vimrc && vim
   ```
 
 
