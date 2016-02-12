@@ -77,7 +77,7 @@ __only tested on OSX & Ubuntu__
 
 ### Install VIMStorm IDE:
   ```bash
-  git clone https://github.com/ifahrentholz/VIMStorm ~/.vim && ln -s ~/.vim/.vimrc ~/.vimrc && vim
+  git clone https://github.com/ifahrentholz/VIMStorm --recursive ~/.vim && ln -s ~/.vim/.vimrc ~/.vimrc && vim
   ```
 
 
@@ -101,3 +101,4 @@ __only tested on OSX & Ubuntu__
 ### TODO:
 - update docu and describe what mentioned in this post: https://msol.io/blog/tech/work-more-efficiently-on-your-mac-for-developers/
 - add ctags + taglist / easytags
+- ~~test the new search plugin~~

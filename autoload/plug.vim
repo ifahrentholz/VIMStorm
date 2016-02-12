@@ -1134,11 +1134,17 @@ G_CLONE_OPT = vim.eval('s:clone_opt')
 G_PROGRESS = vim.eval('s:progress_opt(1)')
 G_LOG_PROB = 1.0 / int(vim.eval('s:update.threads'))
 G_STOP = thr.Event()
+<<<<<<< HEAD
 G_IS_WIN = vim.eval('s:is_win') == '1'
 
 class PlugError(Exception):
   def __init__(self, msg):
     self.msg = msg
+=======
+
+class PlugError(Exception):
+  pass
+>>>>>>> e7da71cd2652bb8abca58252585b99a24a3c9822
 class CmdTimedOut(PlugError):
   pass
 class CmdFailed(PlugError):
@@ -1335,7 +1341,7 @@ class Plugin(object):
         with self.lock:
           thread_vim_command("let s:update.new['{0}'] = 1".format(self.name))
     except PlugError as exc:
-      self.write(Action.ERROR, self.name, exc.msg)
+      self.write(Action.ERROR, self.name, str(exc))
     except KeyboardInterrupt:
       G_STOP.set()
       self.write(Action.ERROR, self.name, ['Interrupted!'])
