@@ -54,6 +54,7 @@ Plug 'cakebaker/scss-syntax.vim'
 Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'elzr/vim-json'
 Plug 'moll/vim-node'
+Plug 'isRuslan/vim-es6'
 
 
 " ##############################################################################
