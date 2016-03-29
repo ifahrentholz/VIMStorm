@@ -55,6 +55,7 @@ Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'elzr/vim-json'
 Plug 'moll/vim-node'
 Plug 'isRuslan/vim-es6'
+Plug 'mxw/vim-jsx'
 
 
 " ##############################################################################
