@@ -53,7 +53,7 @@ if !isdirectory(s:pluginDir)
     echom "We are going to install the plugins : "
     echom " 1. take a coffee"
     echom " 2. reload vim"
-    echom " 3. Envoy VIMStorm"
+    echom " 3. Enjoy VIMStorm"
     echom " "
 
     exec ":source ".s:pluginDef
