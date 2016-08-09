@@ -25,12 +25,10 @@ And contains the features you expect from a modern code editor:
 ### Install dependencies
 __only tested on OSX & Ubuntu__
 
- 1. A modern version of VIM
+ 1. A modern version of VIM (I recommend using macvim)
 
   MAC
-  ```bash
-  brew install vim
-  ```
+  - download & install MacVim: https://github.com/macvim-dev/macvim
 
   Ubuntu
   ```bash
