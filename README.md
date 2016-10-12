@@ -28,7 +28,9 @@ __only tested on OSX & Ubuntu__
  1. A modern version of VIM (I recommend using macvim)
 
   MAC
-  - brew install macvim --override-system-vim
+  ```bash
+  brew install macvim --override-system-vim
+  ```
 
   Ubuntu
   ```bash
